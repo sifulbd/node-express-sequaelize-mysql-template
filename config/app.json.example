@@ -1,0 +1,53 @@
+{
+  "development": {
+    "backend_url": "<your backend app url>",
+    "frontend_url": "<your frontend app url>",
+    "jwt_secret": "<your jwt secret token>",
+    "mail_driver": "<your mail driver name>",
+    "mail_host": "<your mail driver host name>",
+    "mail_port": 587,
+    "mail_username": "<your mail username>",
+    "mail_password": "<your mail username>",
+    "mail_from_name": "App",
+    "mail_from_address": "app@example.com",
+    "mail_bcc_addresses": "",
+    "cron_send_summary_report": false,
+    "twilio_account_sid": "<your twilio account sid>",
+    "twilio_auth_token": "<your twilio auth token>",
+    "twilio_from_number": "<your twilio from number with country code>"
+  },
+  "test": {
+    "backend_url": "<your backend app url>",
+    "frontend_url": "<your frontend app url>",
+    "jwt_secret": "<your jwt secret token>",
+    "mail_driver": "<your mail driver name>",
+    "mail_host": "<your mail driver host name>",
+    "mail_port": 587,
+    "mail_username": "<your mail username>",
+    "mail_password": "<your mail username>",
+    "mail_from_name": "App",
+    "mail_from_address": "app@example.com",
+    "mail_bcc_addresses": "",
+    "cron_send_summary_report": false,
+    "twilio_account_sid": "<your twilio account sid>",
+    "twilio_auth_token": "<your twilio auth token>",
+    "twilio_from_number": "<your twilio from number with country code>"
+  },
+  "production": {
+    "backend_url": "<your backend app url>",
+    "frontend_url": "<your frontend app url>",
+    "jwt_secret": "<your jwt secret token>",
+    "mail_driver": "<your mail driver name>",
+    "mail_host": "<your mail driver host name>",
+    "mail_port": 587,
+    "mail_username": "<your mail username>",
+    "mail_password": "<your mail username>",
+    "mail_from_name": "App",
+    "mail_from_address": "app@example.com",
+    "mail_bcc_addresses": "",
+    "cron_send_summary_report": false,
+    "twilio_account_sid": "<your twilio account sid>",
+    "twilio_auth_token": "<your twilio auth token>",
+    "twilio_from_number": "<your twilio from number with country code>"
+  }
+}

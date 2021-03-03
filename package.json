@@ -1,0 +1,30 @@
+{
+  "name": "journal-api",
+  "version": "1.0.0",
+  "description": "A blog API using MySQL and Sequalize",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/siful.technext/journal-api.git"
+  },
+  "author": "Md. Siful Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/siful.technext/journal-api/issues"
+  },
+  "homepage": "https://gitlab.com/siful.technext/journal-api#readme"
+}

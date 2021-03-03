@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "username",
+    "password": "password",
+    "database": "journal",
+    "host": "192.168.64.2",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "username",
+    "password": "password",
+    "database": "journal",
+    "host": "192.168.64.2",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "username",
+    "password": "password",
+    "database": "journal",
+    "host": "192.168.64.2",
+    "dialect": "mysql"
+  }
+}

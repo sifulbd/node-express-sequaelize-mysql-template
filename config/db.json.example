@@ -1,0 +1,33 @@
+{
+  "development": {
+    "username": "<your database username>",
+    "password": "<your database password>",
+    "database": "<your database name>",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+      "underscored": true
+	}
+  },
+  "test": {
+    "username": "<your database username>",
+    "password": "<your database password>",
+    "database": "<your database name>",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+	  "underscored": true
+	}
+  },
+  "production": {
+    "username": "<your database username>",
+    "password": "<your database password>",
+    "database": "<your database name>",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "define": {
+	  "underscored": true
+	}
+  }
+}
