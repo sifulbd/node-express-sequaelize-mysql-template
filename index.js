@@ -20,6 +20,6 @@ app.use("/comments", commentRouter);
 
 db.sequelize.sync().then(() => {
     app.listen(PORT, () => {
-        console.log(` listening at ... ${PORT}`);
+        console.log(` listening at .. ${PORT}`);
     });
 });
